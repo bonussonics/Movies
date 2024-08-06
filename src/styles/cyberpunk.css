@@ -1,0 +1,198 @@
+
+body {
+  font-family: 'Orbitron', sans-serif; 
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+body.dark-mode {
+  background-color: #0f0f0f;
+  color: #0ff1ce;
+}
+
+body.dark-mode header {
+  background-color: #141414;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+body.dark-mode header h1 {
+  color: #ff0055;
+  text-shadow: 0 0 10px #ff0055, 0 0 20px #ff0055;
+}
+
+body.dark-mode header nav a {
+  color: #00ffea;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: color 0.3s;
+}
+
+body.dark-mode header nav a:hover {
+  color: #ff0055;
+}
+
+body.dark-mode button {
+  background-color: #ff0055;
+  border: none;
+  border-radius: 5px;
+  color: #0f0f0f;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+body.dark-mode button:hover {
+  background-color: #ff3366;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #ff0055, 0 0 20px #ff0055;
+}
+
+body.dark-mode .movie-card {
+  background-color: #141414;
+  border: 1px solid #ff0055;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  width: 200px;
+  text-align: center;
+  margin: 20px;
+}
+
+body.dark-mode .movie-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #ff0055, 0 0 20px #ff0055;
+}
+
+body.dark-mode .movie-poster {
+  width: 100%;
+  height: auto;
+}
+
+body.dark-mode .movie-details {
+  padding: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #141414;
+  color: #0ff1ce;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+body.dark-mode .movie-details h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #ff0055;
+  text-shadow: 0 0 10px #ff0055, 0 0 20px #ff0055;
+}
+
+body.dark-mode .movie-details p {
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+body.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.light-mode header {
+  background-color: #f0f0f0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode header h1 {
+  color: #ff0055;
+  text-shadow: 0 0 10px #ff0055, 0 0 20px #ff0055;
+}
+
+body.light-mode header nav a {
+  color: #007bff;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: color 0.3s;
+}
+
+body.light-mode header nav a:hover {
+  color: #ff0055;
+}
+
+body.light-mode button {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+body.light-mode button:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #007bff, 0 0 20px #007bff;
+}
+
+body.light-mode .movie-card {
+  background-color: #f0f0f0;
+  border: 1px solid #007bff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  width: 200px;
+  text-align: center;
+  margin: 20px;
+}
+
+body.light-mode .movie-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #007bff, 0 0 20px #007bff;
+}
+
+body.light-mode .movie-poster {
+  width: 100%;
+  height: auto;
+}
+
+body.light-mode .movie-details {
+  padding: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode .movie-details h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #007bff;
+  text-shadow: 0 0 10px #007bff, 0 0 20px #007bff;
+}
+
+body.light-mode .movie-details p {
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+
+.switch-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

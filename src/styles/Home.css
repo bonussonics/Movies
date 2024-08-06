@@ -1,0 +1,35 @@
+
+
+  .home {
+    padding: 20px;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  .search-bar button {
+    padding: 8px;
+  }
+  
+  .movie-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .movie-card {
+    margin: 10px;
+    width: 200px;
+  }
+  
+  .movie-poster {
+    width: 100%;
+    height: auto;
+  }
+  
+  

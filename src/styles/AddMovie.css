@@ -1,0 +1,116 @@
+
+.add-movie-form {
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ 
+    margin-left: 0; 
+    margin-right: auto; 
+    float: left; 
+  }
+  
+
+  body.dark-mode .add-movie-form {
+    background-color: #141414;
+    color: #0ff1ce;
+    border: 1px solid #ff0055;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  body.dark-mode .add-movie-form input,
+  body.dark-mode .add-movie-form textarea,
+  body.dark-mode .add-movie-form select,
+  body.dark-mode .add-movie-form button {
+    background-color: #2e2e2e;
+    color: #ffffff;
+    border: 1px solid #333333;
+  }
+  
+  body.dark-mode .add-movie-form input,
+  body.dark-mode .add-movie-form textarea {
+    border-color: #333333;
+  }
+  
+  body.dark-mode .add-movie-form button {
+    background-color: #ff0055;
+    border: none;
+    border-radius: 5px;
+    color: #0f0f0f;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  body.dark-mode .add-movie-form button:hover {
+    background-color: #ff3366;
+  }
+  
+
+  body.light-mode .add-movie-form {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #007bff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  body.light-mode .add-movie-form input,
+  body.light-mode .add-movie-form textarea,
+  body.light-mode .add-movie-form select,
+  body.light-mode .add-movie-form button {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #cccccc;
+  }
+  
+  body.light-mode .add-movie-form input,
+  body.light-mode .add-movie-form textarea {
+    border-color: #cccccc;
+  }
+  
+  body.light-mode .add-movie-form button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  body.light-mode .add-movie-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .add-movie-form h2 {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .add-movie-form div {
+    margin-bottom: 15px;
+  }
+  
+  .add-movie-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .add-movie-form input,
+  .add-movie-form textarea,
+  .add-movie-form select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  
+  .add-movie-form textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .add-movie-form img {
+    display: block;
+    margin: 10px 0;
+  }
+  
